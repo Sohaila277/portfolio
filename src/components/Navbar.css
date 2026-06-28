@@ -50,7 +50,6 @@
   color: var(--text);
 }
 
-/* Small underline-on-hover micro-interaction */
 .navbar__links a::after {
   content: "";
   position: absolute;

@@ -11,7 +11,7 @@ function ProjectCard({ project, onWatchDemo, index }) {
     <div
       ref={ref}
       className={`project-card reveal ${isInView ? "in-view" : ""}`}
-      style={{ transitionDelay: `${(index % 3) * 0.1}s` }} // slight stagger across the grid
+      style={{ transitionDelay: `${(index % 3) * 0.1}s` }} 
     >
       <div className="project-card__image-wrap">
         <img src={image} alt={`${title} screenshot`} className="project-card__image" />
