@@ -14,7 +14,7 @@ function About() {
       <div className="container">
         <div ref={ref} className={`about__inner reveal ${isInView ? "in-view" : ""}`}>
           <div className="about__photo-wrap">
-            <img src="/profile.jpg" alt="Sohaila Mohammed" className="about__photo" />
+             <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Sohaila Mohammed" className="about__photo" />
           </div>
 
           <div className="about__text">

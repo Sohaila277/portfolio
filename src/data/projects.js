@@ -1,17 +1,17 @@
 const projects = [
   {
     title: "EGX Market Operations Dashboard",
-    image: "/projects/market.png",
+    image: `${import.meta.env.BASE_URL}projects/market.png`,
     description:
       "Enterprise dashboard for processing and analyzing daily Egyptian capital market reports.",
     tech: ["React", "Node.js", "Express", "SQL Server"],
-    demo: "/videos/market-demo.mp4",
+    demo: `${import.meta.env.BASE_URL}videos/market-demo.mp4`,
     github: null,
     live: null,
   },
   {
     title: "Brain Tumor Detection",
-    image: "/projects/brain.png",
+    image: `${import.meta.env.BASE_URL}projects/brain.png`,
     description:
       "AI-powered web application for brain tumor classification and segmentation.",
     tech: ["Keras", "TensorFlow", "PyTorch", "Python", "Flask", "HTML", "CSS", "JavaScript"],
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "OCR ID Card Scanner",
-    image: "/projects/idcard.png",
+    image: `${import.meta.env.BASE_URL}projects/idcard.png`,
     description:
       "Web application for scanning and extracting information from ID cards using easyOCR technology.",
     tech: ["Python", "Ultralytics YOLO", "EasyOCR", "Flask"],

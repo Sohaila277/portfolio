@@ -8,7 +8,7 @@ const HERO = {
   role: "Software Engineer",
   tagline:
     "I build modern web applications using React, Node.js and SQL Server.",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
   githubUrl: "https://github.com/Sohaila277", 
   linkedinUrl: "https://www.linkedin.com/in/sohaila-mohamed-a94bb429a/", 
 };
